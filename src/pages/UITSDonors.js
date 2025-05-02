@@ -3,17 +3,17 @@ import React, { useState } from 'react';
 function UITSDonors() {
   const [donors, setDonors] = useState([
     {
-      name: 'Abrar Hossain',
-      studentId: '0432410005101088',
-      phone: '01712345678',
-      batch: '45',
-      bloodGroup: 'A+',
+      name: 'Biswajit Roy',
+      studentId: '0432410005101099',
+      phone: '01867790305',
+      batch: '52',
+      bloodGroup: 'B+',
     },
     {
       name: 'Nusrat Islam',
       studentId: '0432410005101077',
       phone: '01887654321',
-      batch: '44',
+      batch: '52',
       bloodGroup: 'B+',
     },
   ]);
