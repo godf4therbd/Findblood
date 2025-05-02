@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 🩸 FindBlood – Real-Time Blood Donor Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FindBlood is a React-based single-page application that connects blood donors and seekers instantly based on location and blood group.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔍 Search for donors by Blood Group, Division, District, and Police Station
+- 🗺️ Interactive live map using Leaflet.js with blood group markers
+- 📱 Fully responsive design for mobile and desktop
+- 🧑‍🎓 UITS Donor Community page for student donors
+- 📝 Donor enlistment form (name, ID, batch, phone, blood group)
+- 📡 Real-time Google Sheets integration for donor data (planned)
+- 🌐 SPA routing with Netlify-compatible `_redirects` setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+- **React**
+- **React Router DOM**
+- **Leaflet.js + React-Leaflet**
+- **Google Sheets CSV (planned integration)**
+- **Netlify (Deployment)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Installation & Development
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/your-username/Findblood.git
+cd Findblood
+npm install
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🏗️ Build & Deploy
+bash
+Copy
+Edit
+npm run build
+Upload the build/ folder to Netlify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔁 SPA Routing (Netlify)
+Inside public/_redirects:
 
-### `npm run eject`
+bash
+Copy
+Edit
+/*    /index.html   200
+👥 Team Nexora
+👑 Team Lead / Project Owner: Biswajit Roy
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🤝 Contributor: Tanveer Mahmood Shanin
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📄 License
+MIT License – free to use, fork, and modify.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+yaml
+Copy
+Edit
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Would you like me to create the file now inside your project (`README.md`) and push it to Git?
