@@ -23,10 +23,12 @@ FindBlood is a React-based single-page application that connects blood donors an
 - **Leaflet.js + React-Leaflet**
 - **Google Sheets CSV (planned integration)**
 - **Netlify (Deployment)**
-👥 Team Nexora
-👑 Team Lead / Project Owner: Biswajit Roy
 
-🤝 Contributor: Tanveer Mahmood Shanin
+
+## 👥 Team Nexora
+- 👑 Team Lead / Project Owner: Biswajit Roy
+
+- 🤝 Contributor: Tanveer Mahmood Shanin
 
 📄 License
 MIT License – free to use, fork, and modify.
