@@ -23,31 +23,6 @@ FindBlood is a React-based single-page application that connects blood donors an
 - **Leaflet.js + React-Leaflet**
 - **Google Sheets CSV (planned integration)**
 - **Netlify (Deployment)**
-
----
-
-## 📦 Installation & Development
-
-```bash
-git clone https://github.com/your-username/Findblood.git
-cd Findblood
-npm install
-npm start
-
-🏗️ Build & Deploy
-bash
-Copy
-Edit
-npm run build
-Upload the build/ folder to Netlify
-
-🔁 SPA Routing (Netlify)
-Inside public/_redirects:
-
-bash
-Copy
-Edit
-/*    /index.html   200
 👥 Team Nexora
 👑 Team Lead / Project Owner: Biswajit Roy
 
@@ -55,11 +30,3 @@ Edit
 
 📄 License
 MIT License – free to use, fork, and modify.
-
-yaml
-Copy
-Edit
-
----
-
-Would you like me to create the file now inside your project (`README.md`) and push it to Git?
