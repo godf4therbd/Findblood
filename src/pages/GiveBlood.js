@@ -5,7 +5,8 @@ function GiveBlood() {
     name: '',
     bloodGroup: '',
     location: '',
-    lastDonationDate: ''
+    lastDonationDate: '',
+    contactNumber: ''
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -17,7 +18,7 @@ function GiveBlood() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
-    console.log("Donor submitted:", formData); // Optional: Save to backend later
+    console.log("Donor submitted:", formData); // You can send this data to backend here
   };
 
   if (submitted) {
@@ -71,6 +72,14 @@ function GiveBlood() {
           placeholder="Last Donation Date"
           value={formData.lastDonationDate}
           onChange={handleChange}
+        />
+        <input
+          type="tel"
+          name="contactNumber"
+          placeholder="Contact Number"
+          value={formData.contactNumber}
+          onChange={handleChange}
+          required
         />
         <button type="submit">Submit</button>
       </form>
