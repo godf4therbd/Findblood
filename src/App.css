@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* Fade out animation for donor cards */
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateX(-20px);
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+}

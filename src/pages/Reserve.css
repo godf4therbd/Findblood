@@ -1,0 +1,95 @@
+.reserve-container {
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reserve-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.reserve-card {
+  min-width: 320px;
+  background: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reserve-org-name {
+  margin: 0;
+}
+
+.reserve-location {
+  font-weight: 600;
+  margin: 0.2rem 0;
+}
+
+.reserve-donation-type {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.reserve-blood-types {
+  display: flex;
+  gap: 0.8rem;
+  overflow-x: auto;
+  margin-top: 0.8rem;
+}
+
+.reserve-blood-type-card {
+  min-width: 130px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.6rem;
+  flex-shrink: 0;
+}
+
+.badge {
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  white-space: nowrap;
+}
+
+.badge.green {
+  background-color: #4caf50;
+}
+
+.badge.blue {
+  background-color: #2196f3;
+}
+
+.reserve-divider {
+  margin: 0.8rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.reserve-contact-button {
+  margin-top: 1rem;
+  padding: 0.6rem;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reserve-contact-info {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.include-transport-cost {
+  margin: 0;
+}
